@@ -1,28 +1,29 @@
 package hw3Burger;
 public class Burger {
    public String bun;
-   public String onePortionMeat;
-   public String twoServingMeat;
+   public int onePortionMeat;
+   public int additionalPortionOfMeat;
    public String cheese;
-   public String mayo;
+   public boolean mayo;
 
-    public Burger(String bun, String onePortionMeat, String cheese, String mayo) {
-        this(bun, onePortionMeat,null, cheese,mayo);
-
-    }
-
-    public Burger (String bun, String onePortionMeat, String cheese) {
-        this(bun, onePortionMeat,  null, cheese, null);
+    public Burger(String bun, int onePortionMeat, String cheese, boolean mayo) {
+        this(bun, onePortionMeat ,0, cheese, mayo);
 
     }
 
-    public Burger(String bun, String onePortionMeat, String twoServingMeat , String cheese, String mayo) {
+    public Burger (String bun, int onePortionMeat, String cheese) {
+        this(bun, 1,  0, cheese, false);
+
+    }
+
+    public Burger(String bun, int onePortionMeat, int additionalPortionOfMeat , String cheese, boolean mayo) {
         this.bun = bun;
         this.onePortionMeat = onePortionMeat;
-        this.twoServingMeat = twoServingMeat;
+        this.additionalPortionOfMeat = additionalPortionOfMeat;
         this.cheese = cheese;
         this.mayo = mayo;
-        System.out.println("Бургер: " + bun + ", " + onePortionMeat + ( twoServingMeat != null ? ", " + twoServingMeat : "") + ", " +
-                cheese + (mayo != null ? ", " + mayo : "") + ".");
+        System.out.println("Бургер: " + bun + ", " + onePortionMeat + (onePortionMeat == 1 ? " portion meat" : " Additional portion of meat") +
+                (additionalPortionOfMeat != 0 ? ", " + additionalPortionOfMeat + " additional portion of meat" : "") + ", " + cheese +
+                (mayo ? ", with mayonnaise" : "") + ".");
     }
 }
