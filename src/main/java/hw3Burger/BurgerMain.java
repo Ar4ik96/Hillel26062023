@@ -7,8 +7,6 @@ public class BurgerMain {
         Burger dietBurger = new Burger("bun", "onePortionMeat", "cheese");
         Burger doubleMeatRegularBurger = new Burger("bun", "onePortionMeat", "twoServingMeat",
                 "cheese", "mayo");
-        System.out.println(regularBurger);
-        System.out.println(dietBurger);
-        System.out.println(doubleMeatRegularBurger);
+
     }
 }
