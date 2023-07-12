@@ -2,16 +2,15 @@ package Hw4Animals;
 
 public class Main {
     public static void main(String[] args) {
-        DogBobik dogBobik = new DogBobik();
-        CatTom catTom = new CatTom();
+       Cat cat = new Cat("Tom");
+       Cat cat2 = new Cat("Silvester");
+       Dog dog = new Dog("Butch");
+       dog.run(500);
+       dog.swim(8);
+       cat2.swim(1);
 
-        dogBobik.run(500);
-        dogBobik.swim(5);
-
-        catTom.run(150);
-        catTom.swim(8);
-
-        System.out.println("number of dogs " + dogBobik.obtainedQuantityOfDogs());
-        System.out.println("number of cat " + catTom.obtainedQuantityOfCat());
+        System.out.println("Number of cats " + Cat.catCounter);
+        System.out.println("Number of dogs " + Dog.dogCounter);
+        System.out.println("Total number of animals " + Animals.animalsCounter);
     }
 }
