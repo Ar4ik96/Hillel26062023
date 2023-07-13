@@ -7,6 +7,7 @@ public class Main {
        Dog dog = new Dog("Butch");
        dog.run(500);
        dog.swim(8);
+       cat.run(200);
        cat2.swim(1);
 
         System.out.println("Number of cats " + Cat.catCounter);
