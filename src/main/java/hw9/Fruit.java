@@ -1,8 +1,8 @@
-package hw9.boxFruit;
+package hw9;
 
 public abstract class Fruit {
-    private String name;
-    private double weight;
+    private final String name;
+    private final double weight;
 
     public Fruit(String name, double weight) {
         this.name = name;

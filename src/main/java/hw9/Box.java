@@ -1,12 +1,10 @@
 package hw9;
 
-import hw9.boxFruit.Fruit;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class Box<T extends  Fruit> {
-    private List<T> fruits;
+    private final List<T> fruits;
     public Box(){
         fruits = new ArrayList<>();
     }
@@ -18,23 +16,12 @@ public class Box<T extends  Fruit> {
             System.out.println("Cannot add " + fruit.getName() + " to the box. It already contains " + fruits.get(0).getName());
         }
     }
-    public void addFruits(List<T> fruitsToAdd){
-        for (T fruit : fruitsToAdd) {
-            addFruit(fruit);
-        }
-    }
-    public double getWeight(){
+    public double getWeight() {
         double totalWeight = 0;
         for (T fruit : fruits) {
             totalWeight += fruit.getWeight();
         }
         return totalWeight;
-    }
-    public List<T> getFruits() {
-        return fruits;
-    }
-    public boolean compare(Box<? extends Fruit> otherBox){
-        return Math.abs(this.getWeight() - otherBox.getWeight()) < 0.1;
     }
     public void merge(Box<T> otherBox){
         if (this.fruits.isEmpty() || otherBox.fruits.isEmpty()){
