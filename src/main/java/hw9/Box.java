@@ -1,7 +1,6 @@
 package hw9;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Box<T extends  Fruit> {
@@ -23,8 +22,8 @@ public class Box<T extends  Fruit> {
         this.fruits.addAll(otherBox.fruits);
         otherBox.fruits.clear();
     }
-    @SafeVarargs
-    public final void addAllFruits(T... fruits) {
-        this.fruits.addAll(Arrays.asList(fruits));
+
+    public final void addAllFruits(List<T> fruits) {
+        this.fruits.addAll(fruits);
     }
  }

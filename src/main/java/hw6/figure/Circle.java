@@ -1,7 +1,7 @@
 package hw6.figure;
 
 public class Circle implements GeometricFigure {
-    private double radius;
+    private final double radius;
     public Circle(double radius){
         this.radius = radius;
     }

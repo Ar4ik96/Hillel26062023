@@ -1,26 +1,197 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2474080-b1ab-4768-b9a8-f037fa6f3a96" name="Changes" comment="" />
+    <list default="true" id="e2474080-b1ab-4768-b9a8-f037fa6f3a96" name="Changes" comment="I removed the names for the fruits. Also, I removed the checks in the addFruit and merge methods as they are not necessary. They remained from my previous unsuccessful attempts to solve the task. Additionally, I added a new method called addAllFruits to the Box class, where I used Arrays.asList for more convenient addition of multiple fruits.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw6/obstacle/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPro26_06_2023.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPro26_06_2023.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Hw4Animals/CatTom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Hw4Animals/DogBobik.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hw6/figure/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw6/figure/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hw7/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hw9/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw9/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hw9/ArrayToListConvertor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hw9/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw9/Box.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="HW3-4" />
+                <branch-info repo="$PROJECT_DIR$" source="HWburger" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;author&quot;: &quot;Ar4ik96&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;author&quot;: &quot;Ar4ik96&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="1f020ed2-e2d3-4770-87aa-37c793d3d6d6" />
+        <option name="url" value="https://github.com/Ar4ik96/Hillel26062023.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2RvzDKgZEjeawXBxWeUTvyEeXGc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="hw8.competition" />
+      <recent name="hw7" />
+      <recent name="Hw5Builder" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hw8.competition" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw9.App" />
+      <module name="JavaPro26_06_2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw4Animals.Main" />
+      <module name="JavaPro26_06_2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw4Animals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hw5Builder.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw5Builder.Main" />
+      <module name="JavaPro26_06_2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw5Builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hw6.figure.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw6.figure.Main" />
+      <module name="JavaPro26_06_2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw6.figure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hw6.obstacle.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw6.obstacle.Main" />
+      <module name="JavaPro26_06_2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw6.obstacle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.hw6.obstacle.Main" />
+        <item itemvalue="Application.hw6.figure.Main" />
+        <item itemvalue="Application.hw5Builder.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -30,6 +201,161 @@
       <option name="presentableId" value="Default" />
       <updated>1688145221444</updated>
     </task>
+    <task id="LOCAL-00001" summary="add .gitignore file">
+      <created>1688149782270</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688149782270</updated>
+    </task>
+    <task id="LOCAL-00002" summary="I have created an Employee class with fields, and the constructor fills the fields during object creation.&#10;I have created two packages with classes that have the same name.&#10;I have created a Car class with a public method called &quot;start&quot; and hidden internal methods that are not used outside of this class.">
+      <created>1688639963997</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688639963997</updated>
+    </task>
+    <task id="LOCAL-00003" summary="I have created a Burger class with fields and made 3 constructors for it, each representing a different type of burger. In each constructor, I added the output of the ingredients for each burger.&#10;&#10;I have also created a BuergerMain class where these three burgers are created, and when the program is run, their ingredients are displayed.">
+      <created>1688886054309</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688886054309</updated>
+    </task>
+    <task id="LOCAL-00004" summary="I have modified the constructors to make them interrelated.">
+      <created>1688977970104</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688977970104</updated>
+    </task>
+    <task id="LOCAL-00005" summary="I have changed the data types for the portions of meat and mayonnaise.">
+      <created>1688991998126</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688991998126</updated>
+    </task>
+    <task id="LOCAL-00006" summary="I have created two classes, DogBobik and CatTom, which are subclasses of the Animals class. Animals can run and swim within a specific range. You have also implemented the counting of the number of animals.">
+      <created>1689094521329</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689094521329</updated>
+    </task>
+    <task id="LOCAL-00007" summary="I have made some changes">
+      <created>1689149059625</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1689149059625</updated>
+    </task>
+    <task id="LOCAL-00008" summary="I have made changes. I made the Animals class abstract and also made its methods abstract.">
+      <created>1689252304016</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1689252304016</updated>
+    </task>
+    <task id="LOCAL-00009" summary="I created a builder. I clicked everything, but I still didn't understand it very well, to be honest. It's difficult.">
+      <created>1689527139188</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1689527139188</updated>
+    </task>
+    <task id="LOCAL-00010" summary="hw 6">
+      <created>1689692424979</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1689692424979</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Created the ArrayValueCalculator class to calculate the sum of the elements in a 4x4 two-dimensional string array.&#10;Implemented the doCalc method, which takes a 4x4 string array as input, converts the elements to integers, and returns the final sum as an integer.&#10;Added ArraySizeException to be thrown when an array of a different size is passed to the doCalc method.&#10;Added ArrayDataException to be thrown when invalid data is encountered during the conversion process.&#10;Handled the ArraySizeException, ArrayDataException, and NumberFormatException in the main method using try-catch blocks.&#10;Provided informative messages for each exception, indicating the type of exception and the location of the invalid data if applicable.&#10;Took into account the handling of potential exceptions from third-party methods if used in the future.">
+      <created>1689867735777</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1689867735777</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added code implementing the interaction between participants and obstacles in a competition. The classes Participant, Cat, Obstacle, Wall, Run, Competition, and App have been modified to include the necessary methods and fields for implementing the functionality. In the App.main() method, obstacles and a participant (cat) are created, and the Competition.compete() method is called to check the participant's ability to overcome the obstacles. Additionally, animation for the cat's movement has been added, and icons for participants and obstacles are displayed in the console for better visual representation of the competition.">
+      <created>1690390752075</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1690390752075</updated>
+    </task>
+    <task id="LOCAL-00013" summary="I have modified the code following the example of the homework solution.">
+      <created>1690540236637</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1690540236637</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Implemented Box class for storing and managing fruits. The class supports adding single or multiple fruits, calculating the box's weight, comparing boxes based on weight, and merging boxes with the same type of fruits. Each fruit type (e.g., Apple, Orange) extends the Fruit base class. The Box class ensures that fruits of different types cannot be mixed. Added example usage in the main method to demonstrate the functionality.">
+      <created>1690555182121</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1690555182121</updated>
+    </task>
+    <task id="LOCAL-00015" summary="I have fixed the code according to the comments you provided. I hope everything is correct. I still don't quite understand the topic with generics, even though I reviewed the lesson multiple times.">
+      <created>1690737592185</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1690737592185</updated>
+    </task>
+    <task id="LOCAL-00016" summary="I removed the names for the fruits. Also, I removed the checks in the addFruit and merge methods as they are not necessary. They remained from my previous unsuccessful attempts to solve the task. Additionally, I added a new method called addAllFruits to the Box class, where I used Arrays.asList for more convenient addition of multiple fruits.">
+      <created>1690884697964</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1690884697964</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HWburger" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add .gitignore file" />
+    <MESSAGE value="I have created an Employee class with fields, and the constructor fills the fields during object creation.&#10;I have created two packages with classes that have the same name.&#10;I have created a Car class with a public method called &quot;start&quot; and hidden internal methods that are not used outside of this class." />
+    <MESSAGE value="I have created a Burger class with fields and made 3 constructors for it, each representing a different type of burger. In each constructor, I added the output of the ingredients for each burger.&#10;&#10;I have also created a BuergerMain class where these three burgers are created, and when the program is run, their ingredients are displayed." />
+    <MESSAGE value="I have modified the constructors to make them interrelated." />
+    <MESSAGE value="I have changed the data types for the portions of meat and mayonnaise." />
+    <MESSAGE value="I have created two classes, DogBobik and CatTom, which are subclasses of the Animals class. Animals can run and swim within a specific range. You have also implemented the counting of the number of animals." />
+    <MESSAGE value="I have made some changes" />
+    <MESSAGE value="I have made changes. I made the Animals class abstract and also made its methods abstract." />
+    <MESSAGE value="I created a builder. I clicked everything, but I still didn't understand it very well, to be honest. It's difficult." />
+    <MESSAGE value="hw 6" />
+    <MESSAGE value="Created the ArrayValueCalculator class to calculate the sum of the elements in a 4x4 two-dimensional string array.&#10;Implemented the doCalc method, which takes a 4x4 string array as input, converts the elements to integers, and returns the final sum as an integer.&#10;Added ArraySizeException to be thrown when an array of a different size is passed to the doCalc method.&#10;Added ArrayDataException to be thrown when invalid data is encountered during the conversion process.&#10;Handled the ArraySizeException, ArrayDataException, and NumberFormatException in the main method using try-catch blocks.&#10;Provided informative messages for each exception, indicating the type of exception and the location of the invalid data if applicable.&#10;Took into account the handling of potential exceptions from third-party methods if used in the future." />
+    <MESSAGE value="Added code implementing the interaction between participants and obstacles in a competition. The classes Participant, Cat, Obstacle, Wall, Run, Competition, and App have been modified to include the necessary methods and fields for implementing the functionality. In the App.main() method, obstacles and a participant (cat) are created, and the Competition.compete() method is called to check the participant's ability to overcome the obstacles. Additionally, animation for the cat's movement has been added, and icons for participants and obstacles are displayed in the console for better visual representation of the competition." />
+    <MESSAGE value="I have modified the code following the example of the homework solution." />
+    <MESSAGE value="Implemented Box class for storing and managing fruits. The class supports adding single or multiple fruits, calculating the box's weight, comparing boxes based on weight, and merging boxes with the same type of fruits. Each fruit type (e.g., Apple, Orange) extends the Fruit base class. The Box class ensures that fruits of different types cannot be mixed. Added example usage in the main method to demonstrate the functionality." />
+    <MESSAGE value="I have fixed the code according to the comments you provided. I hope everything is correct. I still don't quite understand the topic with generics, even though I reviewed the lesson multiple times." />
+    <MESSAGE value="I removed the names for the fruits. Also, I removed the checks in the addFruit and merge methods as they are not necessary. They remained from my previous unsuccessful attempts to solve the task. Additionally, I added a new method called addAllFruits to the Box class, where I used Arrays.asList for more convenient addition of multiple fruits." />
+    <option name="LAST_COMMIT_MESSAGE" value="I removed the names for the fruits. Also, I removed the checks in the addFruit and merge methods as they are not necessary. They remained from my previous unsuccessful attempts to solve the task. Additionally, I added a new method called addAllFruits to the Box class, where I used Arrays.asList for more convenient addition of multiple fruits." />
   </component>
 </project>
