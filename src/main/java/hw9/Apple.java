@@ -1,7 +1,7 @@
 package hw9;
 
 public class Apple extends Fruit {
-    public Apple(String name ,double weight) {
-        super(name, weight);
+    public Apple(double weight) {
+        super(weight);
     }
 }

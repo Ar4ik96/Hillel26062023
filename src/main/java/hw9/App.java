@@ -6,13 +6,9 @@ public class App {
         Box<Apple> appleBox2 = new Box<>();
         Box<Orange> orangeBox = new Box<>();
 
-        appleBox1.addFruit(new Apple("Apple",0.2));
-        appleBox1.addFruit(new Apple( "Apple",0.3));
-
-        appleBox2.addFruit(new Apple("Apple",0.4));
-        appleBox2.addFruit(new Apple("Apple",0.1));
-
-        orangeBox.addFruit(new Orange("Orange",0.3));
+        appleBox1.addAllFruits(new Apple(0.2), new Apple(0.3));
+        appleBox2.addAllFruits(new Apple(0.4), new Apple(0.1));
+        orangeBox.addAllFruits(new Orange(0.3));
 
         System.out.println("Apple box 1 weight: " + appleBox1.getWeight());
         System.out.println("Apple box 2 weight: " + appleBox2.getWeight());
